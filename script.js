@@ -1,6 +1,8 @@
 const personagem = document.querySelector(".character");
 let personagembot = 0;
 
+const carros = document.querySelectorAll('.car');
+
 document.addEventListener("keydown", function(e){
     personagembot = +window.getComputedStyle(personagem).bottom.replace('px', '');
     
@@ -17,3 +19,7 @@ document.addEventListener("keydown", function(e){
     }
     
 })
+
+const loop = setInterval(function(){
+    
+}, 10)

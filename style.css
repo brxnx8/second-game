@@ -31,5 +31,45 @@ body{
     
     position: absolute;
     right: 0;
+    
+
+    animation: carAnimation 3.7s infinite linear;
+}
+#car1{
     top: 10%;
+}
+#car2{
+    top: 25%;
+    animation-delay: -2.3s;
+    animation-duration: 4.6s;
+}
+#car3{
+    top: 40%;
+    animation-delay: -1.5s;
+    animation-duration: 4.2s;
+}
+#car4{
+    top: 55%;
+    animation-delay: -2s;
+    animation-duration: 4.3s;
+}
+#car5{
+    top: 68%;
+    animation-delay: -1s;
+    animation-duration: 4s;
+}
+#car6{
+    top: 82%;
+    animation-delay: -1.3s;
+    animation-duration: 4.1s;
+}
+
+@keyframes carAnimation{
+    0% {
+        right: -600px;
+    }
+
+    100%{
+        right: 150%;
+    }
 }
