@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    overflow: hidden;
+}
+
 .container{
     background-image: url("assets/estrada.png");
     background-repeat: no-repeat;
@@ -10,4 +14,22 @@
 
     max-width: 1511px;
     min-height: 685px;
+
+    position: relative;
+}
+
+.character{
+    width: 65px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 62%;
+}
+
+.car{
+    width: 90px;
+    
+    position: absolute;
+    right: 0;
+    top: 10%;
 }
