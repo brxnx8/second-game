@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image: url("assets/estrada.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    max-width: 1511px;
+    min-height: 685px;
+}
