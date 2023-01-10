@@ -21,5 +21,13 @@ document.addEventListener("keydown", function(e){
 })
 
 const loop = setInterval(function(){
-    
-}, 10)
+    carros.forEach(element => {
+        x = +window.getComputedStyle(element).right.replace('px', '')
+        y = +window.getComputedStyle(element).bottom.replace('px', '')
+        ypers = +window.getComputedStyle(personagem).bottom.replace('px', '');
+
+        if((x<=992 && x>850) && (ypers <= y+50 && ypers >= y-50)){
+            personagem.style.bottom = `0px`;
+        }
+    });
+}, 0.1)

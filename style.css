@@ -30,7 +30,7 @@ body{
     width: 90px;
     
     position: absolute;
-    right: 0;
+    right: 0px;
     
 
     animation: carAnimation 3.7s infinite linear;
