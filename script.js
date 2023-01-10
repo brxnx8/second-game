@@ -26,7 +26,7 @@ const loop = setInterval(function(){
         y = +window.getComputedStyle(element).bottom.replace('px', '')
         ypers = +window.getComputedStyle(personagem).bottom.replace('px', '');
 
-        if((x<=992 && x>850) && (ypers <= y+50 && ypers >= y-50)){
+        if((x<=992 && x>850) && (ypers <= y+46 && ypers >= y-46)){
             personagem.style.bottom = `0px`;
         }
     });
