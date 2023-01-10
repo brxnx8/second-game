@@ -17,7 +17,9 @@ body{
 
     position: relative;
 }
-
+.points{
+    font-size: 50px;
+}
 .character{
     width: 65px;
     
