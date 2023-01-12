@@ -20,6 +20,37 @@ body{
 .points{
     font-size: 50px;
 }
+.pointrestart{
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    
+    width: 300px;
+    position: absolute;
+    top: 25%;
+    right: 40%;
+    
+    font-size: 50px;
+    text-align: center;
+}
+.restart{
+    width: 250px;
+    font-size: 50px;
+    text-align: center;
+    
+    background-color: greenyellow;
+
+    position: absolute;
+    top: 40%;
+    right: 42%;
+
+    display: none;
+
+    cursor: pointer;
+}
+.restartblock{
+    display: block;
+}
 .character{
     width: 65px;
     
