@@ -11,7 +11,7 @@ document.addEventListener("keydown", function(e){
     
     
     if(e.code === "ArrowUp"){
-        if(personagembot >= 569){
+        if(personagembot >= 540){
             personagem.style.bottom = `0px`;
             points++;
             point.innerText = `Score = ${points}`;
