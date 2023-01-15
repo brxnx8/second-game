@@ -12,8 +12,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 
-    max-width: 1511px;
-    min-height: 620px;
+    width: 100%;
+    min-height: 680px;
 
     position: relative;
 }
@@ -56,7 +56,7 @@ body{
     
     position: absolute;
     bottom: 0px;
-    right: 62%;
+    right: 65%;
 }
 
 .car{

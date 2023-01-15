@@ -1,5 +1,6 @@
 const personagem = document.querySelector(".character");
 let personagembot = 0;
+const xpers = +window.getComputedStyle(personagem).right.replace('px', ''); 
 
 const point = document.querySelector(".points");
 let points = 0;
@@ -36,11 +37,11 @@ btn.addEventListener("click", () => {
 
 const loop = setInterval(function(){
     carros.forEach(element => {
-        x = +window.getComputedStyle(element).right.replace('px', '');
-        y = +window.getComputedStyle(element).bottom.replace('px', '');
-        ypers = +window.getComputedStyle(personagem).bottom.replace('px', '');
+        let x = +window.getComputedStyle(element).right.replace('px', '');
+        let y = +window.getComputedStyle(element).bottom.replace('px', '');
+        let ypers = +window.getComputedStyle(personagem).bottom.replace('px', '');
 
-        if((x<=900 && x>=760) && (ypers <= y+46 && ypers >= y-46)){
+        if((x<=xpers+65 && x>=xpers-85) && (ypers <= y+56 && ypers >= y-56)){
             clearInterval(loop);
             element.style.animation = 'none';
             element.style.right = `${x}px`;
