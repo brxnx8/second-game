@@ -13,7 +13,7 @@ body{
     background-size: cover;
 
     width: 100%;
-    min-height: 680px;
+    height: 100vh;
 
     position: relative;
 }
